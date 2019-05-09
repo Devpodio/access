@@ -1,0 +1,12 @@
+.theia-spacer{
+  flex-grow: 1;
+}
+.theia-logout{
+  font-size: 1.5em;
+  align-self: center;
+  cursor: pointer;
+  color: var(--md-red-800);
+  position: fixed;
+  right: 15px;
+  top: 2px;
+}

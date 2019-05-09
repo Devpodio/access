@@ -1,0 +1,38 @@
+{
+  "name": "@devpodio/access",
+  "license": "Apache-2.0",
+  "keywords": [
+    "devpod-extension"
+  ],
+  "version": "0.5.0",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@devpodio/core": "latest",
+    "@types/cookie-parser": "^1.4.1",
+    "@types/jwt-decode": "^2.2.1",
+    "cookie-parser": "^1.4.4",
+    "jwt-decode": "^2.2.0"
+  },
+  "devDependencies": {
+    "rimraf": "latest",
+    "typescript": "latest"
+  },
+  "scripts": {
+    "prepare": "yarn run clean && yarn run build",
+    "clean": "rimraf lib",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "theiaExtensions": [
+    {
+      "frontend": "lib/browser/access-frontend-module",
+      "backend": "lib/server/access-server-module"
+    }
+  ]
+}

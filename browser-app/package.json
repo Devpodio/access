@@ -1,0 +1,37 @@
+{
+  "private": true,
+  "name": "browser-app",
+  "version": "0.5.0",
+  "dependencies": {
+    "@devpodio/access": "0.5.0",
+    "@devpodio/core": "latest",
+    "@devpodio/editor": "latest",
+    "@devpodio/filesystem": "latest",
+    "@devpodio/languages": "latest",
+    "@devpodio/markers": "latest",
+    "@devpodio/messages": "latest",
+    "@devpodio/monaco": "latest",
+    "@devpodio/navigator": "latest",
+    "@devpodio/preferences": "latest",
+    "@devpodio/process": "latest",
+    "@devpodio/terminal": "latest",
+    "@devpodio/textmate-grammars": "latest",
+    "@devpodio/typescript": "latest",
+    "@devpodio/workspace": "latest",
+    "@types/cookie-parser": "^1.4.1",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^8.0.0"
+  },
+  "devDependencies": {
+    "@devpodio/cli": "latest"
+  },
+  "scripts": {
+    "prepare": "theia build --mode development",
+    "start": "theia start --env.cors=true",
+    "start:env": "node -r dotenv/config ./src-gen/backend/main.js --env.cors=true",
+    "watch": "theia build --watch --mode development"
+  },
+  "theia": {
+    "target": "browser"
+  }
+}
