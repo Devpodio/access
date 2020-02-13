@@ -9,12 +9,12 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
-"@devpodio/application-manager@^0.5.2":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@devpodio/application-manager/-/application-manager-0.5.2.tgz#b629cdce457818a9d2db8e0d6a4a2c4c116f9ece"
-  integrity sha512-biNDz7I2JY0wQJtC3L+PjNHXPsqu3ANtEd6W0qb5ioxrHnzeyfkwT60jg/oiZJR3UABgpQsRO8uIEWliSo8iHw==
+"@devpodio/application-manager@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@devpodio/application-manager/-/application-manager-0.6.0.tgz#46eda08358a2ff02e2c2fdab0f54d31bdf16dceb"
+  integrity sha512-T9/y4vAILB5nwaCFru3Jgi65v4hIAjyH+wF483i/Uk57LzzC5X0GJgYaYUTUoyD0b8hPVt86k0W+Qio5KzLyww==
   dependencies:
-    "@devpodio/application-package" "^0.5.2"
+    "@devpodio/application-package" "^0.6.0"
     "@types/fs-extra" "^4.0.2"
     bunyan "^1.8.10"
     circular-dependency-plugin "^5.0.0"
@@ -41,10 +41,10 @@
     workbox-webpack-plugin "^4.3.0"
     worker-loader "^1.1.1"
 
-"@devpodio/application-package@^0.5.2":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@devpodio/application-package/-/application-package-0.5.2.tgz#82983c4933f9281a410556ccec83a04f11481527"
-  integrity sha512-42aFoF2zuARNhYOS1c+8oYEHD9CgxFa5rh96zJgwFjcTu0Zu5dv0zJ1akswF/1UOSKmFMfIIHIVsw6st9FxD0w==
+"@devpodio/application-package@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@devpodio/application-package/-/application-package-0.6.0.tgz#0684d41e94fc320434f1354283b6598b9a85c58d"
+  integrity sha512-E1cro3TFK+xrCJw+4jT/OrtdkDGI9Wiv9DtriNQsxcgxZDedSb7FGlL9Po5zV9Fa4a8tt28DkrsBUICBSucRKA==
   dependencies:
     "@types/fs-extra" "^4.0.2"
     "@types/request" "^2.0.3"
@@ -57,30 +57,30 @@
     semver "^5.4.1"
     write-json-file "^2.2.0"
 
-"@devpodio/callhierarchy@^0.5.2":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@devpodio/callhierarchy/-/callhierarchy-0.5.2.tgz#dfc9fcfbfd1d5f7cf1733d297ff5098e6d29a242"
-  integrity sha512-S/K53YLkdlWwBux+Y3UDA90h3pOSEysSM810uSJSofVX3G+UYHWJeD2dMmKj0PKODpbIdgQKMa8M/JdPsWJkEQ==
+"@devpodio/callhierarchy@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@devpodio/callhierarchy/-/callhierarchy-0.6.0.tgz#5caee59e9ab0aa389fd129ea8468e2eb4d182e2e"
+  integrity sha512-P8bJOWKVzKri39WD+SXktwnzjziXlmIeQ4V6YS7fxvvUWBfOQ+UPar+eTqPF+6PVUujYwMZ3L/R0X+mXjxII0g==
   dependencies:
-    "@devpodio/core" "^0.5.2"
-    "@devpodio/editor" "^0.5.2"
-    "@devpodio/languages" "^0.5.2"
-    "@devpodio/monaco" "^0.5.2"
+    "@devpodio/core" "^0.6.0"
+    "@devpodio/editor" "^0.6.0"
+    "@devpodio/languages" "^0.6.0"
+    "@devpodio/monaco" "^0.6.0"
     ts-md5 "^1.2.2"
 
-"@devpodio/cli@latest":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@devpodio/cli/-/cli-0.5.2.tgz#4c562932a34ce756a5b610bfa581394a394c7fcb"
-  integrity sha512-XSTZ0M15B9jz/s2V8wpzKninoXmaDiIZUPx36PCJ8vkS2efJdtaXxQVdI7PtaYKmCRkCLt0H40obEYs8TaFWNQ==
+"@devpodio/cli@0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@devpodio/cli/-/cli-0.6.0.tgz#3a0357de2fe6b5622180df49f2393a0da76d7b57"
+  integrity sha512-3f77OPBYv8SSnUMMzPa9h2Llp7x9XaE2NHg56It4ii24s5TkAYlM1qE4itPBGdZtwOMCpjzFX+cThmO10VzeRw==
   dependencies:
-    "@devpodio/application-manager" "^0.5.2"
+    "@devpodio/application-manager" "^0.6.0"
 
-"@devpodio/core@^0.5.2", "@devpodio/core@latest":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@devpodio/core/-/core-0.5.2.tgz#e1c3c19568f1021c01cd35951bcc254833a148ed"
-  integrity sha512-sKPggmxNpByRw9TRHndWEnZGpFtXbAGScnBRZ+VWEpFQ9g/4VOLK7vw50DBW8xCJjwjoKbDFhlUnxg9OmIXPVg==
+"@devpodio/core@0.6.0", "@devpodio/core@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@devpodio/core/-/core-0.6.0.tgz#9ddd05c6f54d4442cea55d0412655321c06f2830"
+  integrity sha512-6kC5jpGeDXh5EWptZ9K33D7DLAc0bxnOYKlOui6uqc64nEgnjkcZmzwCsYe47moy5A0i8rCfMWEBzdt9/P9ACg==
   dependencies:
-    "@devpodio/application-package" "^0.5.2"
+    "@devpodio/application-package" "^0.6.0"
     "@devpodio/perfect-scrollbar" "^1.5.1"
     "@phosphor/widgets" "^1.5.0"
     "@types/body-parser" "^1.16.4"
@@ -114,30 +114,30 @@
     reflect-metadata "^0.1.10"
     route-parser "^0.0.5"
     tldjs "^2.3.1"
-    vscode-languageserver-types "^3.10.0"
+    vscode-languageserver-types "~3.14.0"
     vscode-uri "^1.0.1"
     vscode-ws-jsonrpc "^0.0.2-1"
     ws "^5.2.2"
     yargs "^11.1.0"
 
-"@devpodio/editor@^0.5.2", "@devpodio/editor@latest":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@devpodio/editor/-/editor-0.5.2.tgz#61456799cbf157bd97d45a919436e55a959fd39d"
-  integrity sha512-We0Vy5vwKBCQSNPE9/ZeCbQaVv+LB+9MJ4zEXWGn0O5v90LZAZb4CpidPfIVZnPofwdosKmQUiJFxTeb05mU0A==
+"@devpodio/editor@0.6.0", "@devpodio/editor@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@devpodio/editor/-/editor-0.6.0.tgz#08b75eaa75d3df0a90b982920a7e8f479bc50851"
+  integrity sha512-PBz9hMP/IERJpc4bJauTWW4IyGIRF0bPYWiCPUdACWdNDwvlALv2XmAj3TLE0ansO0IV0LoTm3zrX6jbUcTXLQ==
   dependencies:
-    "@devpodio/core" "^0.5.2"
-    "@devpodio/languages" "^0.5.2"
-    "@devpodio/variable-resolver" "^0.5.2"
+    "@devpodio/core" "^0.6.0"
+    "@devpodio/languages" "^0.6.0"
+    "@devpodio/variable-resolver" "^0.6.0"
     "@types/base64-arraybuffer" "0.1.0"
     base64-arraybuffer "^0.1.5"
     fs-extra "^4.0.2"
 
-"@devpodio/filesystem@^0.5.2", "@devpodio/filesystem@latest":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@devpodio/filesystem/-/filesystem-0.5.2.tgz#67bacbb665e023325afe2021c22b8173a0fc2f20"
-  integrity sha512-IHqHUtOgyKvkewS4HXiaVF/RRlpJx83p9cIf/z1q40BZ673VHYRojqCiyjqzkNdG+7Ir3ATruHEZuFWHSNrAYA==
+"@devpodio/filesystem@0.6.0", "@devpodio/filesystem@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@devpodio/filesystem/-/filesystem-0.6.0.tgz#879d522377407134d148003e8e81b8d4a8b250f4"
+  integrity sha512-O8D1z6509ypBhcNF1ge/sZKxXKKeboQwTLh1ru3l9jJyx78C6mbnFoSXZSesvyQdMtd+b8QjNDtA5T3EUdCD3Q==
   dependencies:
-    "@devpodio/core" "^0.5.2"
+    "@devpodio/core" "^0.6.0"
     "@types/base64-js" "^1.2.5"
     "@types/body-parser" "^1.17.0"
     "@types/formidable" "^1.0.31"
@@ -165,59 +165,59 @@
     uuid "^3.2.1"
     zip-dir "^1.0.2"
 
-"@devpodio/json@^0.5.2":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@devpodio/json/-/json-0.5.2.tgz#16ae9a544b9c3803b4311972fcfd4db704e6250d"
-  integrity sha512-JzpuaK1qRf8Udx7ftZ+UBV69m8fOPoKwFWf23V1X0PVwQrTyefzBa3DMjpLvgAXPMlGDn5qJsVywflGyQVuNVg==
+"@devpodio/json@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@devpodio/json/-/json-0.6.0.tgz#3f6455d8baed7a8007ac7a3a5deb1b97972f6997"
+  integrity sha512-O2hzj/e08sKvipG8Fr0LeE2W5n/o10U53gXjvj4zssdOK6V6bZ3LA2J+8q0fUQeY1E+KdrwY7Ge3MGs7kC1tUg==
   dependencies:
-    "@devpodio/core" "^0.5.2"
-    "@devpodio/languages" "^0.5.2"
-    "@devpodio/monaco" "^0.5.2"
+    "@devpodio/core" "^0.6.0"
+    "@devpodio/languages" "^0.6.0"
+    "@devpodio/monaco" "^0.6.0"
     vscode-json-languageserver "^1.0.1"
 
-"@devpodio/languages@^0.5.2", "@devpodio/languages@latest":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@devpodio/languages/-/languages-0.5.2.tgz#3109ada8a58e3597941d49160084233ab70ffb15"
-  integrity sha512-It14Ea9GIDBW9ZhhUdWcoxpJMbXXUxvv/Ks28nhBzhGJM8nvOG7QJ9NFwoonY1P/nBzVlaXgWdn2YtP++uUQxg==
+"@devpodio/languages@0.6.0", "@devpodio/languages@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@devpodio/languages/-/languages-0.6.0.tgz#7405fd9c1aaae25bce18f23f0a21fa732decdf66"
+  integrity sha512-/D5VBxy0svCoScxPRnrIiqzqumiO1ifWUlgzcIgTK696/ealeHGrRrhJ1HfopXJseqxLV80qBTvh0LylDgylkw==
   dependencies:
-    "@devpodio/core" "^0.5.2"
-    "@devpodio/output" "^0.5.2"
-    "@devpodio/process" "^0.5.2"
-    "@devpodio/workspace" "^0.5.2"
+    "@devpodio/core" "^0.6.0"
+    "@devpodio/output" "^0.6.0"
+    "@devpodio/process" "^0.6.0"
+    "@devpodio/workspace" "^0.6.0"
     "@typefox/monaco-editor-core" "^0.14.6"
     "@types/uuid" "^3.4.3"
     monaco-languageclient "^0.9.0"
     uuid "^3.2.1"
 
-"@devpodio/markers@^0.5.2", "@devpodio/markers@latest":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@devpodio/markers/-/markers-0.5.2.tgz#2ff768bbaca948f4ca601839f91753660f8ec562"
-  integrity sha512-HUfvP4hdNlLFIk7fWePo6yUb0V412wYZd2tbCsPpHMOy8QRawD7w2O4DZ83WmHC7gmrM4Zav/Td3IKEdFMGXuQ==
+"@devpodio/markers@0.6.0", "@devpodio/markers@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@devpodio/markers/-/markers-0.6.0.tgz#798f8c4f323115f50c5a10595c31cf86d4a950af"
+  integrity sha512-7qOcYvIgNVHpzfN1rF7M+UPvdg4yOybigsfWVBhAiwe6B1BPFF1ZtG9cAX/KFClTfVdOx2sFPZJAYeuv7pmpyA==
   dependencies:
-    "@devpodio/core" "^0.5.2"
-    "@devpodio/filesystem" "^0.5.2"
-    "@devpodio/navigator" "^0.5.2"
-    "@devpodio/workspace" "^0.5.2"
+    "@devpodio/core" "^0.6.0"
+    "@devpodio/filesystem" "^0.6.0"
+    "@devpodio/navigator" "^0.6.0"
+    "@devpodio/workspace" "^0.6.0"
 
-"@devpodio/messages@latest":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@devpodio/messages/-/messages-0.5.2.tgz#139d0374bee586549684d8638199895e5727f09e"
-  integrity sha512-tSvKeyDsFBpFzPztdd3Pqw/y7CuinMw0KLIKf9Ul8Wze/Cy2R2MT9/xNDVBojP5HT8iwweUzEtW6MU49Ma8MeQ==
+"@devpodio/messages@0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@devpodio/messages/-/messages-0.6.0.tgz#4f65fd99fabc599dd1784736c32535dfbefdd292"
+  integrity sha512-Mof+ZpZN+y07qUvfHyMsfuVNzxaCUhBkfk78BpWfnpPZwLMQOJQgLpDX/yP+7N13FpkWvq/Tg7zsP/dcufP3hw==
   dependencies:
-    "@devpodio/core" "^0.5.2"
+    "@devpodio/core" "^0.6.0"
 
-"@devpodio/monaco@^0.5.2", "@devpodio/monaco@latest":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@devpodio/monaco/-/monaco-0.5.2.tgz#068143189040a4b97a3bea43d4f0e383c89f55e6"
-  integrity sha512-VXruzYx1SA6odvQFEwqu+t93hh94IWOgz9Yd1Afmv5LRorYEFdCulL9xzuJ+Q8B9lheFBC7kYlDMuheeI2Cscg==
+"@devpodio/monaco@0.6.0", "@devpodio/monaco@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@devpodio/monaco/-/monaco-0.6.0.tgz#d78b9b78571613093fa123236e271a4dc8a484ae"
+  integrity sha512-MECqH8no6OWUnomGp92NNdYovOYv5LxyYfgVSf5M3PJccxisOKKWzzl2mk9JIOcey/cFV4l1Z4xN6Lg9zwqhHg==
   dependencies:
-    "@devpodio/core" "^0.5.2"
-    "@devpodio/editor" "^0.5.2"
-    "@devpodio/filesystem" "^0.5.2"
-    "@devpodio/languages" "^0.5.2"
-    "@devpodio/markers" "^0.5.2"
-    "@devpodio/outline-view" "^0.5.2"
-    "@devpodio/workspace" "^0.5.2"
+    "@devpodio/core" "^0.6.0"
+    "@devpodio/editor" "^0.6.0"
+    "@devpodio/filesystem" "^0.6.0"
+    "@devpodio/languages" "^0.6.0"
+    "@devpodio/markers" "^0.6.0"
+    "@devpodio/outline-view" "^0.6.0"
+    "@devpodio/workspace" "^0.6.0"
     deepmerge "2.0.1"
     jsonc-parser "^2.0.2"
     monaco-css "^2.0.1"
@@ -225,119 +225,119 @@
     onigasm "^2.1.0"
     vscode-textmate "^4.0.1"
 
-"@devpodio/navigator@^0.5.2", "@devpodio/navigator@latest":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@devpodio/navigator/-/navigator-0.5.2.tgz#67963891d5ad4c5193b14ae3c1fb75c03472fb11"
-  integrity sha512-2tK1efirJ6YOpQcxkV6/I1ui5850kFTwPbjRoE3xjV8A3n6cvqk5HZdQvqzzVwC0WRl9GSF1I//dyBmnJ9WJHQ==
+"@devpodio/navigator@0.6.0", "@devpodio/navigator@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@devpodio/navigator/-/navigator-0.6.0.tgz#158188f2959e478a648c8bf2f670863620b4004c"
+  integrity sha512-+Pr8K1A5LORRug1DGUKMWbqKeSms97F9ACcb3CSDTQjuG572BLnLoFrCHCdHKSTZg+55nHEsGSvIPsjjHHRTww==
   dependencies:
-    "@devpodio/core" "^0.5.2"
-    "@devpodio/filesystem" "^0.5.2"
-    "@devpodio/workspace" "^0.5.2"
+    "@devpodio/core" "^0.6.0"
+    "@devpodio/filesystem" "^0.6.0"
+    "@devpodio/workspace" "^0.6.0"
     fuzzy "^0.1.3"
     minimatch "^3.0.4"
 
-"@devpodio/outline-view@^0.5.2":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@devpodio/outline-view/-/outline-view-0.5.2.tgz#d95c74c431721d2729afbead3b10acf544501b58"
-  integrity sha512-xP3RCx2OTl+3zTMfzSiL1rnvn/8G/7fMuoNvEjdG5s7VqgZTmFvmYFKqCbUJ/PoJzX48kTcAb6+AbM58JFZ4aQ==
+"@devpodio/outline-view@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@devpodio/outline-view/-/outline-view-0.6.0.tgz#3929e5bd10115c56f1166c4557e958eec5a97d43"
+  integrity sha512-cSfxQR/+dVLxqtcbK2DdXSBk3cNLId8JV0skbnuuYVuqvI4NvZwc5fkMbV8dbQONTUul9JDtba8VLdWNgTmrMQ==
   dependencies:
-    "@devpodio/core" "^0.5.2"
+    "@devpodio/core" "^0.6.0"
 
-"@devpodio/output@^0.5.2":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@devpodio/output/-/output-0.5.2.tgz#1f6cac9b199a0279a46cb7f18b7c32844facbb4f"
-  integrity sha512-iUFKbIyoF52WkbD+wFwhnTpom87edC+cl5DQUbMUo+7YJcLp+QdcJdSjiSjfa30BiR028JJvumNJxig1Pm4sLA==
+"@devpodio/output@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@devpodio/output/-/output-0.6.0.tgz#3c374068e32343eedd9e2f38caf90a762b2a003c"
+  integrity sha512-sdqRvksfQZzQm8sqNtztJ24dCLuSkYLQqn6UoXAo2+VOKEsnwKlFiZB7RXDx3nVVOBkJKr9kdKt3suB4gPhOpQ==
   dependencies:
-    "@devpodio/core" "^0.5.2"
+    "@devpodio/core" "^0.6.0"
 
 "@devpodio/perfect-scrollbar@^1.5.1":
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/@devpodio/perfect-scrollbar/-/perfect-scrollbar-1.5.1.tgz#a5ad8a178bf905cad50bbff72e8c08df01b72d74"
   integrity sha512-PZJnlJmjHA6X2hFDqqhc0UNXu/LjoHLPs8/wEWSKDHkpRo3dHCOKacgUdDGu6KGpVzsiIUIPPhRCgojYJUFD1Q==
 
-"@devpodio/preferences@latest":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@devpodio/preferences/-/preferences-0.5.2.tgz#ef041108d808353ac0778660d5fbfc079197fd98"
-  integrity sha512-Bn6pE13HZSl+h4+Hs5FF4fhseYtsIH2H58d2A67dGm0I13oPwRTVG6k9Y6k0aHg3e/GJAJ7Ao6eBXw+sSKZuOg==
+"@devpodio/preferences@0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@devpodio/preferences/-/preferences-0.6.0.tgz#15de02dc1b525578516453a41a48f98124e7178c"
+  integrity sha512-nUdTGNiKA9RvGbi/iPuWoUtqjLiy6iG9s3vWSuHHy35whqXmBoW+Gs9n+LYufQfgmi48GDkbu9LWyBOlNVbtcA==
   dependencies:
-    "@devpodio/core" "^0.5.2"
-    "@devpodio/editor" "^0.5.2"
-    "@devpodio/filesystem" "^0.5.2"
-    "@devpodio/json" "^0.5.2"
-    "@devpodio/monaco" "^0.5.2"
-    "@devpodio/userstorage" "^0.5.2"
-    "@devpodio/workspace" "^0.5.2"
+    "@devpodio/core" "^0.6.0"
+    "@devpodio/editor" "^0.6.0"
+    "@devpodio/filesystem" "^0.6.0"
+    "@devpodio/json" "^0.6.0"
+    "@devpodio/monaco" "^0.6.0"
+    "@devpodio/userstorage" "^0.6.0"
+    "@devpodio/workspace" "^0.6.0"
     "@types/fs-extra" "^4.0.2"
     fs-extra "^4.0.2"
     jsonc-parser "^2.0.2"
 
-"@devpodio/process@^0.5.2", "@devpodio/process@latest":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@devpodio/process/-/process-0.5.2.tgz#24722484974c7f032fd5e24772b43dd0c3cddb75"
-  integrity sha512-iPYitMsYoa/XjYplUOI0b77lq9K5B0celTQGDAE7uTtHvfXY8YcRFl9KjHDi6Y9mNUg6m8wAP2Gquu1wQ4Eb2g==
+"@devpodio/process@0.6.0", "@devpodio/process@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@devpodio/process/-/process-0.6.0.tgz#4e3cb4113cf69edf719f5fe877dd89c90c2c9e1f"
+  integrity sha512-0c4xRaRl+FOn8QfQHNKKIbs8788IhufXJAhGpLq6kdMYItSw6LjWUxr4/6j9u/fjKm7mSNbiW3i3Y6eCjlvtxQ==
   dependencies:
-    "@devpodio/core" "^0.5.2"
+    "@devpodio/core" "^0.6.0"
     "@theia/node-pty" "0.7.8-theia004"
     string-argv "^0.1.1"
 
-"@devpodio/terminal@latest":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@devpodio/terminal/-/terminal-0.5.2.tgz#5e6218d6a0c3af942b4ed715073c3e3370227b98"
-  integrity sha512-x0omWYDMtkakFfEDFN5mxS58llj6aysneO9RddeSVPittGyn9p2S491XgJfvV3ojDSmGskFBO6ca78ip+obXcA==
+"@devpodio/terminal@0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@devpodio/terminal/-/terminal-0.6.0.tgz#d26064edadfd61c868d444d94a0a44e73d6b6c6b"
+  integrity sha512-9ZGoS0hjAx2e0LC6GM4t0Agf9gUHmj9QE5380xj8GFeChfCsw7/5Sg8B52MlgouWrjsdvdai55qdV+GEEsY4KQ==
   dependencies:
-    "@devpodio/core" "^0.5.2"
-    "@devpodio/editor" "^0.5.2"
-    "@devpodio/filesystem" "^0.5.2"
-    "@devpodio/process" "^0.5.2"
-    "@devpodio/workspace" "^0.5.2"
+    "@devpodio/core" "^0.6.0"
+    "@devpodio/editor" "^0.6.0"
+    "@devpodio/filesystem" "^0.6.0"
+    "@devpodio/process" "^0.6.0"
+    "@devpodio/workspace" "^0.6.0"
     xterm "3.9.2"
 
-"@devpodio/textmate-grammars@latest":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@devpodio/textmate-grammars/-/textmate-grammars-0.5.2.tgz#7b2a91b2273505dcf6f5bf3389decd4da21741ef"
-  integrity sha512-CyqCfiuXs+sD4Yr90nBH+pJYh1V3k+r8Ya11Oyk2Ni4K/rHt611gLA/iGQgiLeDtyY0gp6HwBTjFe8hwe2ZdSg==
+"@devpodio/textmate-grammars@0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@devpodio/textmate-grammars/-/textmate-grammars-0.6.0.tgz#bca76736c2574b3413f7bd56baa5db4d1ed321d2"
+  integrity sha512-7gcM2pdn6Fj9kPIVCxjUHikgVDOMcmGclTehzEwcmiled/etuwn0c5Noxf9IlyU1SyIAZriMs/nypieI5WFpbg==
   dependencies:
-    "@devpodio/monaco" "^0.5.2"
+    "@devpodio/monaco" "^0.6.0"
 
-"@devpodio/typescript@latest":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@devpodio/typescript/-/typescript-0.5.2.tgz#698bc1958c14db2e7e2a239bc99eec6a51854dcb"
-  integrity sha512-BStNPnNfinpW6Tw6kl+H0/6S9l0dUi3E7IVKiQZAsTjiu1KEnoITgFcwfUg9eoDRxZwWEGPO00lqfKxG+kcC8A==
+"@devpodio/typescript@0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@devpodio/typescript/-/typescript-0.6.0.tgz#38ee32acb8efd14b15e52b4c54e6bf5553de028a"
+  integrity sha512-hCVTIaeBsjr9V2ummYIkKfeVBJ1v2HPtkmEYSCo1r0XFdBliYAurIsBuigSgMzAVH6ydpwvPYIfLwgpxWokrQw==
   dependencies:
-    "@devpodio/application-package" "^0.5.2"
-    "@devpodio/callhierarchy" "^0.5.2"
-    "@devpodio/core" "^0.5.2"
-    "@devpodio/editor" "^0.5.2"
-    "@devpodio/filesystem" "^0.5.2"
-    "@devpodio/languages" "^0.5.2"
-    "@devpodio/monaco" "^0.5.2"
-    "@devpodio/workspace" "^0.5.2"
+    "@devpodio/application-package" "^0.6.0"
+    "@devpodio/callhierarchy" "^0.6.0"
+    "@devpodio/core" "^0.6.0"
+    "@devpodio/editor" "^0.6.0"
+    "@devpodio/filesystem" "^0.6.0"
+    "@devpodio/languages" "^0.6.0"
+    "@devpodio/monaco" "^0.6.0"
+    "@devpodio/workspace" "^0.6.0"
     command-exists "^1.2.8"
     typescript-language-server "^0.3.7"
 
-"@devpodio/userstorage@^0.5.2":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@devpodio/userstorage/-/userstorage-0.5.2.tgz#ca061c3334dc2875d057d7027bff2377f185cc64"
-  integrity sha512-/q5X1G6qLkmqTHn8as5jcQqS/T8XPqm/vdBqwdO11z9w3ZmJYewp+QDu+vR/wWU8hcuw7ujM+IWNAvar5xOXXg==
+"@devpodio/userstorage@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@devpodio/userstorage/-/userstorage-0.6.0.tgz#0eb472c9f051feb206a85a9a313014bf44bdd088"
+  integrity sha512-zmA3ifiP+VfYoTbZOP+Rl+TxJr3HtpEQZ3tc6Z/01FsGQRLIMvBWd8z4k2U7WdZiJRlF09wcaToQfpEjx1cDdw==
   dependencies:
-    "@devpodio/core" "^0.5.2"
-    "@devpodio/filesystem" "^0.5.2"
+    "@devpodio/core" "^0.6.0"
+    "@devpodio/filesystem" "^0.6.0"
 
-"@devpodio/variable-resolver@^0.5.2":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@devpodio/variable-resolver/-/variable-resolver-0.5.2.tgz#fe51c049ce3ab1ae3c9d350f2c079ada13a5722a"
-  integrity sha512-9ivANA1tgzKotjv2W9rEr2C7sv+59pOUH0Q0uy6NIh59atPXtSQBwGZvWSX2fasBbxvP5X4MDDfbM50AcurxZA==
+"@devpodio/variable-resolver@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@devpodio/variable-resolver/-/variable-resolver-0.6.0.tgz#a09e5466eb5cf4822383f9d635a132340933c2da"
+  integrity sha512-vzI8DzmyLn5ZpOphoCpDGOb7O90lZRLjZQe7whPLhCxANPTii79PAx+Ux6/FrSuFnre4f9vXSEUh+Q4BbRLkvg==
   dependencies:
-    "@devpodio/core" "^0.5.2"
+    "@devpodio/core" "^0.6.0"
 
-"@devpodio/workspace@^0.5.2", "@devpodio/workspace@latest":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@devpodio/workspace/-/workspace-0.5.2.tgz#d1c01bd10c122f8306a363ebe6c480d86cc16e09"
-  integrity sha512-vNQOJXG2vMMX0xz9pWAKDNTaG0c+GxJymymzmfT/blb683e0e8VJ7GWGK8AN/TAwtQMeTD0yxk2ydevRXnbNvg==
+"@devpodio/workspace@0.6.0", "@devpodio/workspace@^0.6.0":
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/@devpodio/workspace/-/workspace-0.6.0.tgz#6b018ad3e04c32c57d5e030af875438daee70f27"
+  integrity sha512-2M3c88qpwnjInjas/24ggXUbhBFrPa2TbSUJ8Qgo1EpYLgnLEzFG9QMh67XwD0NCSs4NYggBBx1MyzSTf1Dyag==
   dependencies:
-    "@devpodio/core" "^0.5.2"
-    "@devpodio/filesystem" "^0.5.2"
-    "@devpodio/variable-resolver" "^0.5.2"
+    "@devpodio/core" "^0.6.0"
+    "@devpodio/filesystem" "^0.6.0"
+    "@devpodio/variable-resolver" "^0.6.0"
     "@types/fs-extra" "^4.0.2"
     ajv "^6.10.0"
     fs-extra "^4.0.2"
@@ -530,10 +530,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/cookie-parser@^1.4.1":
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/@types/cookie-parser/-/cookie-parser-1.4.1.tgz#e88a39c41960f31549b4c52dd8620aa4a2feb4bb"
-  integrity sha512-iJY6B3ZGufLiDf2OCAgiAAQuj1sMKC/wz/7XCEjZ+/MDuultfFJuSwrBKcLSmJ5iYApLzCCYBYJZs0Ws8GPmwA==
+"@types/cookie-parser@^1.4.2":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@types/cookie-parser/-/cookie-parser-1.4.2.tgz#e4d5c5ffda82b80672a88a4281aaceefb1bd9df5"
+  integrity sha512-uwcY8m6SDQqciHsqcKDGbo10GdasYsPCYkH3hVegj9qAah6pX5HivOnOuI3WYmyQMnOATV39zv/Ybs0bC/6iVg==
   dependencies:
     "@types/express" "*"
 
@@ -2905,10 +2905,10 @@ dot-prop@^4.1.1:
   dependencies:
     is-obj "^1.0.0"
 
-dotenv@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.0.0.tgz#ed310c165b4e8a97bb745b0a9d99c31bda566440"
-  integrity sha512-30xVGqjLjiUOArT4+M5q9sYdvuR4riM6yK9wMcas9Vbp6zZa+ocC9dp6QoftuhTPhFAiLK/0C5Ni2nou/Bk8lg==
+dotenv@^8.2.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.2.0.tgz#97e619259ada750eea3e4ea3e26bceea5424b16a"
+  integrity sha512-8sJ78ElpbDJBHNeBzUbUVLsqKdccaa/BXF1uPTw3GrvQTBgrQrtObr2mUrE38vzYd8cEv+m/JBfDLioYcfXoaw==
 
 drivelist@^6.4.3:
   version "6.4.6"
@@ -7244,10 +7244,17 @@ rgba-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/rgba-regex/-/rgba-regex-1.0.0.tgz#43374e2e2ca0968b0ef1523460b7d730ff22eeb3"
   integrity sha1-QzdOLiyglosO8VI0YLfXMP8i7rM=
 
-rimraf@2, rimraf@^2.2.8, rimraf@^2.5.4, rimraf@^2.6.1, rimraf@^2.6.2, rimraf@^2.6.3, rimraf@latest:
+rimraf@2, rimraf@^2.2.8, rimraf@^2.5.4, rimraf@^2.6.1, rimraf@^2.6.2, rimraf@^2.6.3:
   version "2.6.3"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.3.tgz#b2d104fe0d8fb27cf9e0a1cda8262dd3833c6cab"
   integrity sha512-mwqeW5XsA2qAejG46gYdENaxXjx9onRNCfn7L0duuP4hCuTIi/QO7PDK07KJfp1d+izWPrzEJDcSqBa0OZQriA==
+  dependencies:
+    glob "^7.1.3"
+
+rimraf@3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-3.0.2.tgz#f1a5402ba6220ad52cc1282bac1ae3aa49fd061a"
+  integrity sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==
   dependencies:
     glob "^7.1.3"
 
@@ -8527,7 +8534,7 @@ vscode-languageserver-protocol@^3.10.0, vscode-languageserver-protocol@^3.10.3:
     vscode-jsonrpc "^4.0.0"
     vscode-languageserver-types "3.14.0"
 
-vscode-languageserver-types@3.14.0, vscode-languageserver-types@^3.10.0, vscode-languageserver-types@^3.13.0:
+vscode-languageserver-types@3.14.0, vscode-languageserver-types@^3.13.0, vscode-languageserver-types@~3.14.0:
   version "3.14.0"
   resolved "https://registry.yarnpkg.com/vscode-languageserver-types/-/vscode-languageserver-types-3.14.0.tgz#d3b5952246d30e5241592b6dde8280e03942e743"
   integrity sha512-lTmS6AlAlMHOvPQemVwo3CezxBp0sNB95KNPkqp3Nxd5VFEnuG1ByM0zlRWos0zjO3ZWtkvhal0COgiV1xIA4A==

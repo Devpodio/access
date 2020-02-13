@@ -1,29 +1,29 @@
 {
   "private": true,
   "name": "browser-app",
-  "version": "0.5.0",
+  "version": "0.6.1",
   "dependencies": {
-    "@devpodio/access": "0.5.0",
-    "@devpodio/core": "latest",
-    "@devpodio/editor": "latest",
-    "@devpodio/filesystem": "latest",
-    "@devpodio/languages": "latest",
-    "@devpodio/markers": "latest",
-    "@devpodio/messages": "latest",
-    "@devpodio/monaco": "latest",
-    "@devpodio/navigator": "latest",
-    "@devpodio/preferences": "latest",
-    "@devpodio/process": "latest",
-    "@devpodio/terminal": "latest",
-    "@devpodio/textmate-grammars": "latest",
-    "@devpodio/typescript": "latest",
-    "@devpodio/workspace": "latest",
-    "@types/cookie-parser": "^1.4.1",
+    "@devpodio/access": "0.6.1",
+    "@devpodio/core": "0.6.0",
+    "@devpodio/editor": "0.6.0",
+    "@devpodio/filesystem": "0.6.0",
+    "@devpodio/languages": "0.6.0",
+    "@devpodio/markers": "0.6.0",
+    "@devpodio/messages": "0.6.0",
+    "@devpodio/monaco": "0.6.0",
+    "@devpodio/navigator": "0.6.0",
+    "@devpodio/preferences": "0.6.0",
+    "@devpodio/process": "0.6.0",
+    "@devpodio/terminal": "0.6.0",
+    "@devpodio/textmate-grammars": "0.6.0",
+    "@devpodio/typescript": "0.6.0",
+    "@devpodio/workspace": "0.6.0",
+    "@types/cookie-parser": "^1.4.2",
     "cookie-parser": "^1.4.4",
-    "dotenv": "^8.0.0"
+    "dotenv": "^8.2.0"
   },
   "devDependencies": {
-    "@devpodio/cli": "latest"
+    "@devpodio/cli": "0.6.0"
   },
   "scripts": {
     "prepare": "theia build --mode development",
